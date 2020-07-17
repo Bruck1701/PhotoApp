@@ -1,1 +1,20 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+
+#sticky-footer {
+  flex-shrink: none !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.logout-button {
+  margin-right: 5px;
+}
+
+.user-name {
+  margin-top: 3.5%;
+  padding-right: 7px;
+  color:lightgray;
+}

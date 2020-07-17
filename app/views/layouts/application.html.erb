@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>PhotoApp</title>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,8 +11,19 @@
   </head>
 
   <body>
-    <div class="container mt-4">
+    <%= render 'layouts/navbar'  %> 
+    <div class="container">
+    <%= render 'layouts/messages' %>
+    </div>
+    <div class="container mt-4"> 
     <%= yield %>
   </div>
+
+
+  <footer id="sticky-footer" class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <small>Copyright &copy; <%=link_to "Bruno Kümmel",'https://www.brunokummel.dev', class: "text-white" %>  </small>
+      </div>
+    </footer>
   </body>
 </html>
