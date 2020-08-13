@@ -6,6 +6,7 @@ ruby '2.7.0'
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'font-awesome-rails'
+gem 'stripe'
 #gem 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
