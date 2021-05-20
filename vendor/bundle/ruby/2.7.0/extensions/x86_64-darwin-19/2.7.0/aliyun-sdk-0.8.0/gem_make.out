@@ -1,0 +1,16 @@
+current directory: /Users/brunokummel/rubySRC/photoApp/vendor/bundle/ruby/2.7.0/gems/aliyun-sdk-0.8.0/ext/crcx
+/Users/brunokummel/.rvm/rubies/ruby-2.7.0/bin/ruby -I /Users/brunokummel/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20201016-42503-4xdkge.rb extconf.rb
+creating Makefile
+
+current directory: /Users/brunokummel/rubySRC/photoApp/vendor/bundle/ruby/2.7.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR=" clean
+
+current directory: /Users/brunokummel/rubySRC/photoApp/vendor/bundle/ruby/2.7.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR="
+compiling crc64_ecma.c
+compiling crcx.c
+linking shared-object aliyun/crcx.bundle
+
+current directory: /Users/brunokummel/rubySRC/photoApp/vendor/bundle/ruby/2.7.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 crcx.bundle ./.gem.20201016-42503-cqclf/aliyun

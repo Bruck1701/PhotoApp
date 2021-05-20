@@ -8,6 +8,12 @@ gem 'devise-bootstrap-views', '~> 1.0'
 gem 'font-awesome-rails'
 gem 'stripe'
 #gem 
+# image manipulation gems
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
+
+#gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
